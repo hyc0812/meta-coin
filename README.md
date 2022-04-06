@@ -36,13 +36,18 @@ In this tutorial we will be covering:
 
 
 ## Getting started
-project structure:
+Project structure:
 
 > **contracts/**: Directory for Solidity contracts
+
 > **migrations/**: Directory for scriptable deployment files
+
 > **test/**: Directory for test files for testing your application and contracts
+
 > **truffle-config.js**: Truffle configuration file
+
 > **LICENSE**: License for your project
+
 
 ### Test the smart contract
 
