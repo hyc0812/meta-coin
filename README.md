@@ -56,7 +56,6 @@ We need first connect to a blockchain. Truffle has a built-in personal blockchai
 > Option 2: using Ganache UI to visualize. 
 > In this tutorial we use option2 to demonstrate.
 
-
 We open Ganache UI, click **QUICKSTART**, and **ADD PROJECT** by selecting **truffle-config.js**, and click restart:
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mxraeucnimfucurzxfu7.png)
