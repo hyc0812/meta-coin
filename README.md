@@ -20,6 +20,7 @@ In this tutorial we will be covering:
 2. Test the smart contract
 2. Compile and deploy the smart contract
 3. Interact with the smart contract
+> NOTE: All commands should be run in the root directory of this project
 
 #### What are Truffle and Ganache?
 **Truffle** is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier. With Truffle, you get:
