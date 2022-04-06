@@ -49,7 +49,7 @@ Project structure:
 
 > **LICENSE**: License for your project
 
-we need first connect to a blockchain. Truffle has a built-in personal blockchain that can be used. This blockchain is local to your system and does not interact with the main Ethereum network.
+We need first connect to a blockchain. Truffle has a built-in personal blockchain that can be used. This blockchain is local to your system and does not interact with the main Ethereum network.
 
 > We have two options to connect to a local blockchain: 
 > Option 1: using command `truffle develop`
