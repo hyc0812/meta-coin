@@ -36,29 +36,7 @@ In this tutorial we will be covering:
 
 
 ## Getting started
-###  Create a truffle project
-
-First, we create a new directory for our Truffle project using CLI, and navigate to the root directory of our project:
-```linux
-mkdir meta-coin
-cd meta-coin
-```
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9ud3lckcagky2q2n2yhd.png)
-
-Let's open the project folder using VS Code:
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cx78db6pkznct1zrwgr5.png)
-
-Next, we download the metaCoin box using:
-```linux
-truffle unbox metacoin
-```
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8jkjzml1uepfdsbpy7r6.png)
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xkwow1i56bt9le1pf0qs.png)
-
-Once this operation is completed, you'll now have a project structure:
+project structure:
 
 > **contracts/**: Directory for Solidity contracts
 > **migrations/**: Directory for scriptable deployment files
@@ -95,19 +73,6 @@ Next, we need to connect to a blockchain. Truffle has a built-in personal blockc
 > Option 2: using Ganache UI to visualize. 
 > In this blog we use option2 to demonstrate.
 
-Now let's open **truffle-config.js**, and replace the content with the following:
-```js
-module.exports = {
-  networks: {
-    development: {
-      host: "127.0.0.1",
-      port: 7545,
-      network_id: "*"
-    }
-  }
-};
-```
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h97aqudduegu7v45sb1c.png)
 
 Next, we open Ganache UI, click **QUICKSTART**, and **ADD PROJECT** by selecting **truffle-config.js**, and click restart:
 
