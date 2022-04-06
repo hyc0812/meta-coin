@@ -49,6 +49,26 @@ Project structure:
 
 > **LICENSE**: License for your project
 
+we need first connect to a blockchain. Truffle has a built-in personal blockchain that can be used. This blockchain is local to your system and does not interact with the main Ethereum network.
+
+> We have two options to connect to a local blockchain: 
+> Option 1: using command `truffle develop`
+> Option 2: using Ganache UI to visualize. 
+> In this tutorial we use option2 to demonstrate.
+
+
+We open Ganache UI, click **QUICKSTART**, and **ADD PROJECT** by selecting **truffle-config.js**, and click restart:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mxraeucnimfucurzxfu7.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7t0yfrmuj75yatpxywte.png)
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/trz1mtjwj82pw6wlzfca.png)
+
+By finishing the previous step, we have launched a local blockchain. 
+
+
 
 ### Test the smart contract
 
@@ -72,24 +92,7 @@ truffle compile
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ch4w3x5tj5oz8d9rjqlo.png)
 
-Next, we need to connect to a blockchain. Truffle has a built-in personal blockchain that can be used. This blockchain is local to your system and does not interact with the main Ethereum network.
 
-> We have two options to connect to a local blockchain: 
-> Option 1: using command `truffle develop`
-> Option 2: using Ganache UI to visualize. 
-> In this blog we use option2 to demonstrate.
-
-
-Next, we open Ganache UI, click **QUICKSTART**, and **ADD PROJECT** by selecting **truffle-config.js**, and click restart:
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mxraeucnimfucurzxfu7.png)
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7t0yfrmuj75yatpxywte.png)
-
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/trz1mtjwj82pw6wlzfca.png)
-
-By finishing the previous step, we have launched a local blockchain. 
 We can now migrate and deploy our smart contracts to the blockchain using the following command:
 ```linux
 truffle migrate
